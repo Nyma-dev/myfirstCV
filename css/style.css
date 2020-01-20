@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-width: 320px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+ul li {
+  display: inline;
+}
+.navbar-brand img {
+  border-radius: 50%;
+  margin-left: 100%;
+}
+
+/*INTRODUCE MYSELF*/
+.para {
+  font-size: 15px;
+  font-weight: 600;
+}
+.btn-subtitle {
+  padding: 1% 8%;
+
+  margin-top: 2%;
+}
+.about-title span {
+  font-weight: 600;
+  letter-spacing: 15px;
+  display: block;
+}
+.card-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.servicesmyself {
+  padding: 5rem 2rem;
+}
+.space {
+  transition: transform 0.9s ease;
+}
+.cardcolor {
+  padding: 20px;
+  background: #f3f3f3;
+  border-radius: 5px;
+}
+.card-main {
+  transition: box-shadow 0.6s ease;
+}
+.card-main:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+/* .our-project {
+    padding: 35px;
+  } */
+.future {
+  font-size: 20px;
+  font-weight: 600;
+}
+.title-h1 {
+  font-weight: 600;
+}
+.title-h2 {
+  font-size: 25px;
+}
+.gallerybox:hover {
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.gallerybox {
+  transition: box-shadow 0.6s ease;
+}
+.bakk {
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.bakk:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.sh {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

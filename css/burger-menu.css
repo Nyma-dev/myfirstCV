@@ -1,0 +1,42 @@
+header .nav-item {
+  margin-left: 20px;
+}
+header .nav-item a {
+  color: #fa493f;
+  font-weight: 900;
+  text-transform: uppercase;
+  transition: color 0.2s linear;
+}
+header .nav-item a:hover {
+  color: #000;
+  text-transform: uppercase;
+}
+.navbar-toggler {
+  border: hidden;
+  outline: none;
+  background: none;
+  position: relative;
+}
+.navbar-toggler span,
+.navbar-toggler span::after,
+.navbar-toggler span::before {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #fa493f;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -1px;
+}
+.navbar-toggler span::after,
+.navbar-toggler span::before {
+  content: "";
+}
+.navbar-toggler span::after {
+  transform: translateY(5px);
+}
+.navbar-toggler span::before {
+  transform: translateY(-5px);
+}

@@ -1,0 +1,37 @@
+.site-title h3 {
+  line-height: 1.5;
+  padding-top: 20%;
+  padding-left: 40%;
+  font-size: 30px;
+  font-weight: 400;
+}
+.site-title h1 {
+  line-height: 1.5;
+  padding-left: 40%;
+  font-size: 30px;
+  font-weight: 600;
+}
+.site-title h4 {
+  line-height: 1.5;
+  padding-left: 40%;
+  font-size: 30px;
+  font-weight: 400;
+}
+.btn-title {
+  padding: 1% 8%;
+  margin-left: 40%;
+  margin-top: 2%;
+}
+.btn-color {
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  background: linear-gradient(#fa493f, #f6c96b);
+  font-weight: 600;
+  color: #fff;
+  box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.7);
+}
+.btn-color:hover {
+  border: 2px solid #fa493f;
+  background: #fff;
+}

@@ -1,0 +1,28 @@
+.skil-title h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.bac h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.text-skil__item {
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.trans {
+  transition: transform.3s ease;
+}
+.single-brand img:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  transform: scale(1.1);
+}
+.title-services {
+  font-weight: 600;
+}
+.subtitle-services {
+  font-size: 20px;
+  font-weight: 600;
+}
